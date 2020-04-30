@@ -1,4 +1,15 @@
+server:
+  port: 9005
+  servlet:
+    context-path: /search
+
 elasticsearch:
-  host: localhost
+  host: 49.232.135.174
   port: 9200
 
+spring:
+  application:
+    name: search
+
+swagger2:
+  package: com.amoc.api

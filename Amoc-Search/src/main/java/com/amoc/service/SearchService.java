@@ -1,5 +1,7 @@
 package com.amoc.service;
 
+import com.amoc.domain.Student;
+
 /**
  * @Author zhoucx
  * @Description
@@ -7,5 +9,11 @@ package com.amoc.service;
  **/
 public interface SearchService {
 
-    void getValue(String name);
+    Student getValue(long id);
+
+    void createIndex();
+
+    void saveValue(Student student);
+
+    void deleteById(long id);
 }

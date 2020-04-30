@@ -1,5 +1,5 @@
 server:
-  port: 9001
+  port: 9995
   servlet:
     context-path: /search
 
@@ -11,3 +11,5 @@ spring:
   application:
     name: search
 
+swagger2:
+  package: com.amoc.api
